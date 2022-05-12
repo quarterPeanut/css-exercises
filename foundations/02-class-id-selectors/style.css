@@ -4,12 +4,13 @@
 }
 
 .bigger-class {
-    font-size: 25px;
+    font-size: 24px;
 }
 
 
 #first-special{
     color: blue;
+    font-size: 36px
 }
 
 #second-special {
