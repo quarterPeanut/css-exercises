@@ -9,3 +9,11 @@
 .biggest-class {
     font-size: 35px;
 }
+
+#id-one {
+    color: blue;
+}
+
+#id-two {
+    font-weight: bold;
+}
