@@ -1,4 +1,4 @@
-.basic-class {
+.odd-numbered {
     background-color: lightcoral;
 }
 
@@ -6,14 +6,11 @@
     font-size: 25px;
 }
 
-.biggest-class {
-    font-size: 35px;
-}
 
-#id-one {
+#first-special{
     color: blue;
 }
 
-#id-two {
+#second-special {
     font-weight: bold;
 }
