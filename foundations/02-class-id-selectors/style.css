@@ -1,3 +1,7 @@
 .basic-class {
     background-color: lightcoral;
 }
+
+.bigger-class {
+    font-size: 25px;
+}
