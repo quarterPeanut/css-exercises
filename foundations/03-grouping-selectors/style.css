@@ -1,9 +1,9 @@
 .left-button {
-
+    background-color: rgb(0, 0, 0);
 }
 
 .right-button {
-
+    background-color:  rgb(255, 255, 0);
 }
 
 .left-button, 
