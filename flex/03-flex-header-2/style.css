@@ -37,6 +37,11 @@ body {
   font-style: italic;
 }
 
+.notification-area {
+  display:flex;
+  align-items: center;
+}
+
 button {
   border: none;
   border-radius: 8px;
