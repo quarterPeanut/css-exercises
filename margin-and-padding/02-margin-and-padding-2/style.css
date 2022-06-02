@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 body {
   background: #eee;
   font-family: sans-serif;
@@ -7,10 +12,26 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 8px;
 }
 
+/* inside margins */
+.title,
+.content {
+  margin-bottom: 8px;
+}
+
+/* inside padding */
+.title,
+.content,
+.button-container {
+  padding: 10px;
+}
+
+/* outside padding */
 .title {
   background: #e3f4ff;
+  font-size: 18px;
 }
 
 .content {
@@ -19,9 +40,15 @@ body {
 
 .button-container {
   background: #e3f4ff;
+  height: 70px;
+  text-align: center;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: block;
+  margin: auto;
+  width: auto;
+  height: 30px;
 }
