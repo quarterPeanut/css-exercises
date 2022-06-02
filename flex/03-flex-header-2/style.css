@@ -36,12 +36,12 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
-  margin-right: 15px;
+  margin-right: 16px;
 }
 
 .notification-area {
   display:flex;
-  gap: 15px;
+  gap: 16px;
   align-items: center;
 
   margin-left: auto;
@@ -64,5 +64,5 @@ a {
 ul {
   list-style-type: none;
   display: flex;
-  gap: 15px;
+  gap: 16px;
 }
