@@ -40,6 +40,8 @@ body {
 .notification-area {
   display:flex;
   align-items: center;
+
+  margin-left: auto;
 }
 
 button {
