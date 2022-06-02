@@ -18,6 +18,10 @@ img {
   justify-content: center;
 }
 
+.plant-pair {
+  border: 1px solid red;
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;
