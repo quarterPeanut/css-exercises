@@ -21,24 +21,6 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   padding: 10px;
-  display: flex;
-}
-
-.main-content {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-}
-
-.header {
-  font-weight: bold;
-  font-size: 18px;
-}
-
-.top-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
 }
 
 .icon {
