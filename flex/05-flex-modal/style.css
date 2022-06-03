@@ -65,3 +65,21 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+/* Personal solutions */
+
+.modal {
+display: flex;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
