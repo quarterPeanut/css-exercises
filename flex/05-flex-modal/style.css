@@ -80,6 +80,11 @@ gap: 20px;
   align-items: baseline;
 }
 
+.header {
+  font-weight: bold;
+  font-size: 18px;
+}
+
 .main-content {
   flex: 1;
   display: flex;
