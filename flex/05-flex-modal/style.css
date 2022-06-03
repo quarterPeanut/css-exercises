@@ -28,6 +28,10 @@ body {
   flex: 1;
 }
 
+.header {
+  font-weight: bold;
+}
+
 .icon {
   color: royalblue;
   font-size: 26px;
