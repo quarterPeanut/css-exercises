@@ -34,14 +34,31 @@ input {
   margin: 0;
 }
 
-.header {
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+/* Could align-items center - might be more efficient to align-self the content section */
+}
+
+.header, 
+.footer {
   display: flex;
   justify-content: space-between;
   padding: 15px;
 }
 
-.header ul {
+.header ul, 
+.footer ul {
   display: flex;
   list-style-type: none;
   gap: 15px;
+}
+
+.content {
+  align-self: center;
+}
+
+.footer {
+  background-color: rgb(204, 204, 204);
 }
