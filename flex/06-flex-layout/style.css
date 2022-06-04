@@ -62,9 +62,14 @@ body {
   align-items: center;
 }
 
-.content .buttons {
+.buttons {
   display: flex;
   gap: 5px;
+}
+
+button {
+  padding: 10px;
+  font-size: 15px;
 }
 
 .footer {
