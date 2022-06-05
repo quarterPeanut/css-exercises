@@ -35,11 +35,6 @@ body {
   padding: 0;
 }
 
-a {
-  color: white;
-  text-decoration: none;
-}
-
 body {
   display: flex;
   flex-direction: column;
@@ -50,8 +45,26 @@ body {
   flex: 1;
 }
 
+/* Sidebar */
+
 .sidebar {
   min-width: 300px;
+  padding: 16px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+}
+
+.sidebar li {
+  /* Could make ul flexbox instead and gap the li */
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
 }
 
 .main {
