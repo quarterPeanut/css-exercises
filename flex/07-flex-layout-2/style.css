@@ -45,6 +45,16 @@ body {
   flex: 1;
 }
 
+/* Header */
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  font-size: 32px;
+  font-weight: 900;
+}
+
 /* Sidebar */
 
 .sidebar {
