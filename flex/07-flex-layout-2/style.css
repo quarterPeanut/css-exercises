@@ -77,7 +77,19 @@ body {
   text-decoration: none;
 }
 
+/* Main */
+
 .main {
-  /* To see main section */
-  background-color: yellow;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 30px;
+  width: 100vw;
+  padding: 32px;
+}
+
+.card {
+  border: 1px solid red;
+  width: 300px;
+  height: 300px;
 }
